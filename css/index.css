@@ -1,42 +1,43 @@
-/*========================= Home Page ===========================  */
+/* =========================================================== */
+/* ====================== Home - page ======================= */
+/* ========================================================= */
   
-    /* Landing page */
+    /* =========================================================== */
+    /* ====================== Landing Section ======================= */
+    /* ========================================================= */
   
-    div.landing-sec {
-        width: 1170px;
-        /* background-image: url(/Media/img/ForComponent/Landing.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center; */
-        /* background-attachment: fixed; */
-        background-color: #000;
-        width: 100%;
-        height: 100vh;
-        margin: 0 auto;
-      }
-    
-        /* Title On Navigation */
-    
-        div.landing-sec > div.title {
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          transform: translate(-50% , -50%);
-          text-align: center;
+        div.landing-section {
+            width: 1170px;
+            /* background-image: url(/Media/img/ForComponent/Landing.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center; */
+            /* background-attachment: fixed; */
+            background-color: #000;
+            width: 100%;
+            height: 100vh;
+            margin: 0 auto;
         }
     
-        div.landing-sec > div.title > h1 {
+    /* ===================== Title On Landing page =================== */
+    
+        div.landing-section > div.landing-title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50% , -50%);
+            text-align: center;
+        }
+    
+        div.landing-section > div.landing-title > h1 {
           color:white;
           font-size: 70px;
           text-align: center;
         }
 
-            /* Style on Responsive Navigaiton Bar */
-                label#homepage-hamburger > i {
-                    color:#fff;
-                }
-
-        /* Status  Section */
+    /* =========================================================== */
+    /* =================== Status Section ======================= */
+    /* ========================================================= */
 
         div.status-section {
             width: 100%;
@@ -72,7 +73,9 @@
             font-size: 18px;
         }
 
-        /* Intro Section */
+    /* =========================================================== */
+    /* ==================== Intro Section ======================= */
+    /* ========================================================= */
         div.intro-section {
             width: 100%;
         }
@@ -111,7 +114,9 @@
             height: 400px;
         }
 
-        /* Answer Section */
+    /* =========================================================== */
+    /* ====================== Answer Section ==================== */
+    /* ========================================================= */
         div.answer-section {
             width: 100%;
             background-color: var(--second-bg-color);
@@ -150,13 +155,19 @@
         }
 
         div.answer-section div.answer-container > div.answer-paragraph > p {
-            font-size: 18px;
+            font-family: "LaoSansPro-Regular";
+            font-size: 22px;
             color: var(--main-text-color);
             font-weight: 300;
+            text-indent: 60px;
+            text-align: left;
+            letter-spacing: 2px;
         }
 
 
-        /* Proverb Section */
+    /* =========================================================== */
+    /* ===================== Proverb Section ==================== */
+    /* ========================================================= */
         div.proverb-section {
             width: 100%;
             background-color: var(--third-bg-color);
@@ -194,7 +205,9 @@
             margin: 20px 0;
         }
 
-        /* Blog Section */
+    /* =========================================================== */
+    /* ====================== Blog Section ====================== */
+    /* ========================================================= */
         div.blog-section {
             width: 100%;
         }

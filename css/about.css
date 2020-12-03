@@ -1,52 +1,6 @@
-/* Navigation Bar */
-    
-div.navbar-all {
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  }
-
-  header.header-section {
-    max-width: 1200px;
-    height: 90px;
-    background-color: white;
-    margin:0 auto;
-    padding: 20px 0;
-  } 
-
-  header.header-section > nav.menu-bar {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  header.header-section > nav.menu-bar > div.logo > a > img {
-    width: 230px;
-    height: 60px;
-  }
-
-  header.header-section > nav.menu-bar > ul.list-menu {
-    line-height: 70px;
-  }
-
-  header.header-section > nav.menu-bar > ul.list-menu > li {
-    display: inline-block;
-    list-style: none;
-  }
-
-  header.header-section > nav.menu-bar > ul.list-menu > li > a {
-    color:black;
-    margin-right: 20px;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
-        /* Style on Responsive Navigaiton Bar */
-            label#allpage-hamburger > i {
-                color:#000;
-
-            }
-
-    /* About Us Section */
+    /* =============================================================== */
+    /* ====================== About - us Section ==================== */
+    /* ============================================================= */
     div.about-team-section {
         width: 100%;
         background-color: var(--four-bg-color);
@@ -72,14 +26,18 @@ div.navbar-all {
     }
 
     div.about-team-section > div.about-team-container > p {
+        font-family: "LaoSansPro-Regular";
         width: 980px;
         margin: 0 auto;
         color:var(--main-text-color);
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
+        line-height: 40px;
     }
 
-    /* Member Section */
+        /* ============================================================= */
+    /* ====================== Member Section ======================= */
+    /* ============================================================ */
     div.member-section {
         width: 100%;
     }
@@ -102,7 +60,7 @@ div.navbar-all {
         margin-bottom: 30px;
     }
 
-    
+
     div.member-section > div.member-container > div.member-item > div.profile-me > div.profile-img {
         margin-right: 40px;
     }
@@ -131,8 +89,9 @@ div.navbar-all {
         list-style: none;
         margin-right: 10px;
     }
-
-    /* Sponser Section */
+    /* =============================================================== */
+    /* ====================== Sponser Section ======================= */
+    /* ============================================================= */
     div.sponser-section {
         width: 100%;
     }
